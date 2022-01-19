@@ -13,7 +13,7 @@
 2. 신호의 총합이 임계값을 넘어가면 뉴련 활성화
 ```
 
-y = 0(*w<sub>1</sub>w<sub>1</sub>*+ ... + *w<sub>n</sub>w<sub>n</sub>* <= &theta) or 1(*w<sub>1</sub>w<sub>1</sub>*+ ... + *w<sub>n</sub>w<sub>n</sub>*)
+y = 0(*w<sub>1</sub>w<sub>1</sub>*+ ... + *w<sub>n</sub>w<sub>n</sub>* <= &theta;) or 1(*w<sub>1</sub>w<sub>1</sub>*+ ... + *w<sub>n</sub>w<sub>n</sub>*)
 
 
 
