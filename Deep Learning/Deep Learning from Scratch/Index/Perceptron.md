@@ -11,15 +11,24 @@
 
 1. 입력 신호가 뉴련에 보내질 때는 가중치가 곱해짐
 2. 신호의 총합이 임계값을 넘어가면 뉴련 활성화
+> 가중치 크기 = 해당 신호의 중요도
 ```
 
 y = 0(*w<sub>1</sub>w<sub>1</sub>*+ ... + *w<sub>n</sub>w<sub>n</sub>* <= &theta;) or 1(*w<sub>1</sub>w<sub>1</sub>*+ ... + *w<sub>n</sub>w<sub>n</sub>* > &theta;)
 
-
-
 ## 2. 단순한 논리회로
 
 ### 2.1. AND 게이트
+
+```python
+def AND(x1, x2):
+  w1, w2, theta = 0.5, 0.5, 0.7
+  tmp = x1*w1 + x2*w2
+  if tmp <= theta:
+    return 0
+  elif tmp > theta:
+    return 1
+```
 
 ### 2.2. NAND 게이트와 OR 게이트
 
