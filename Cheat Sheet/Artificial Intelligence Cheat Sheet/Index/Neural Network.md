@@ -63,7 +63,9 @@
 
 19. DCIGN(Deep Convolutional Inverse Graphics Network)
 > 3D 렌더링 엔진 학습에 효율적
+```
 
+```markdown
 20. GAN(Generative Adversarial Network)
 21. LSM(Liquid State Machine)
 22. ELM(Extreme Learning Machine)
