@@ -1,5 +1,7 @@
 ```markdown
 1. P(Perceptron)
+> 초기 인공 신경망
+> https://wikidocs.net/24958
 2. FF(Feed Forward)
 3. RBF(Radial Basis Network)
 4. DFF(Deep Feed Forward)
